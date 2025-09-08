@@ -1,0 +1,15 @@
+[project]
+name = "vahan-pipecat-sarvam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "pipecat-ai-flows>=0.0.20",
+    "pipecat-ai[elevenlabs,google,openai]>=0.0.82",
+    "plivo>=4.59.2",
+    "sarvamai>=0.1.19",
+    "uvicorn[standard]>=0.35.0",
+]
